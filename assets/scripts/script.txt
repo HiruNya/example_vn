@@ -1,0 +1,24 @@
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+STAGE 'background1'
+"Speaker": "Set the background"
+:anchor
+SPAWN 'cat girl' at (8, 16)
+"Spawn the cat."
+HIDE 'cat girl'
+"Hide the cat."
+SHOW 'cat girl'
+"Show the cat."
+SHOW 'cat girl'~'second'
+"Change the cat's state"
+"Another Speaker": "Change the speaker as well"
+MOVE 'cat girl' (16, 16)
+"Move the cat."
+KILL 'cat girl'
+"Kill the cat."
+"This script file can be edited
+And new lines can be added as well
+日本語も　使えます。"
+"You can also go to a different place in the script or go to another script.
+Be careful as this makes a loop.
+END as the name implies signifies the end of a game."
+-> :anchor

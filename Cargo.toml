@@ -1,0 +1,13 @@
+[package]
+name = "example_vn"
+version = "0.1.0"
+authors = ["Hiruna Jayamanne <hirunav2@gmail.com>"]
+
+[dependencies]
+piston_window = "*"
+gfx_glyph = "0.11"
+gfx_device_gl = "*"
+
+[dependencies.svnf]
+path = "../svnf"
+features = ["gfx_glyph_text"]
