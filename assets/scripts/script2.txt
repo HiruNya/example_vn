@@ -1,0 +1,7 @@
+"This is another script"
+"You can go back to the start of a script by using the :main anchor which is put at the start of every script.
+This should not be confused with main: which is the initial script."
+"This however, creates a loop as now you will keep going back to the start of the script.
+
+You can close the window by pressing ESC."
+-> :main

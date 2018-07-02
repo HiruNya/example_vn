@@ -1,0 +1,14 @@
+["cat girl"]
+default = "first"
+offset = { x = 0.5, y = 0.5}
+size = { w = 304, h = 425}
+first =  "../assets/cat_girl.png"
+second = "../assets/cat_girl2.png"
+
+[bat]
+default = "happy"
+happy = "./assets/images/bat-happy.png"
+scary = "./assets/images/bat-scary.png"
+scared = "./assets/images/bat-scared.png"
+offset = { x= 0.5, y = 0.5}
+size = { w = 558.5, h = 451}

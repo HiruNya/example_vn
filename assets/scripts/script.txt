@@ -1,24 +1,34 @@
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 STAGE 'background1'
 "Speaker": "Set the background"
 :anchor
-SPAWN 'cat girl' at (8, 16)
-"Spawn the cat."
-HIDE 'cat girl'
-"Hide the cat."
-SHOW 'cat girl'
-"Show the cat."
-SHOW 'cat girl'~'second'
-"Change the cat's state"
+SPAWN 'bat' at (12, 13)
+"Spawn the bat."
+SPAWN 'bat' as 'bat2' at (20, 13)
+"Spawn more bats"
+KILL 'bat2'
+HIDE 'bat'
+"Hide the bat."
+SHOW 'bat'
+"Show the bat."
+SHOW 'bat'~'scary'
+"Change the bat's state"
 "Another Speaker": "Change the speaker as well"
-MOVE 'cat girl' (16, 16)
-"Move the cat."
-KILL 'cat girl'
-"Kill the cat."
+MOVE 'bat' (20, 13)
+"Move the bat."
+SHOW 'bat'~'scared'
+"Now we shall kill the bat."
+"Bat": "Please don't do it."
+KILL 'bat'
+"Speaker" : "The deed has been done"
 "This script file can be edited
 And new lines can be added as well
 日本語も　使えます。"
 "You can also go to a different place in the script or go to another script.
 Be careful as this makes a loop.
 END as the name implies signifies the end of a game."
--> :anchor
+"You can go to other scripts using the arrow ( -> ) notation."
+"The syntax is as follows:
+-> ScriptName:Anchor    ~ This will go the script, ScriptName, at the anchor, Anchor.
+-> ScriptName:          ~ This will go the start of the script ScriptName.
+-> :Anchor              ~ This will go to the anchor, Anchor, of the current script."
+-> other:

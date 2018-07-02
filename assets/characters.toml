@@ -1,6 +1,0 @@
-["cat girl"]
-default = "first"
-offset = { x = 0.5, y = 0.5}
-size = { w = 304, h = 425}
-first =  "../assets/cat_girl.png"
-second = "../assets/cat_girl2.png"
