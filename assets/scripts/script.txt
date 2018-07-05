@@ -1,3 +1,4 @@
+PLAY 'BGM'
 STAGE 'background1'
 "Speaker": "Set the background"
 :anchor
