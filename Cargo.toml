@@ -9,5 +9,5 @@ gfx_glyph = "*"
 gfx_device_gl = "*"
 
 [dependencies.gobu]
-path = "../gobu"
+git = "https://github.com/HiruNya/gobu"
 features = ["gfx_glyph_text"]
