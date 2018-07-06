@@ -31,6 +31,7 @@ fn main() {
         .backgrounds("./assets/config/background.toml")
         .scripts("./assets/config/scripts.toml")
         .music("./assets/config/music.toml")
+        .transitions("./assets/config/transitions.toml")
         .build(&mut window.factory)
         .expect("Error in building the game!");
     let font = {

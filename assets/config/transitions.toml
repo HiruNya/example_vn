@@ -1,0 +1,3 @@
+[CharacterTransition.Fade]
+type = "FadeIn"
+time = 0.25

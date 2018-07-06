@@ -1,8 +1,7 @@
 PLAY 'BGM'
 STAGE 'background1'
 "Speaker": "Set the background"
-:anchor
-SPAWN 'bat' at (12, 13)
+SPAWN 'bat' at (12, 13) with 'Fade'
 "Spawn the bat."
 SPAWN 'bat' as 'bat2' at (20, 13)
 "Spawn more bats"
