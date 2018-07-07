@@ -5,10 +5,10 @@ SPAWN 'bat' at (12, 13) with 'Fade'
 "Spawn the bat."
 SPAWN 'bat' as 'bat2' at (20, 13)
 "Spawn more bats"
-KILL 'bat2'
-HIDE 'bat'
+KILL 'bat2'  with 'FadeOut'
+HIDE 'bat' with 'FadeOut'
 "Hide the bat."
-SHOW 'bat'
+SHOW 'bat' with 'Fade'
 "Show the bat."
 SHOW 'bat'~'scary'
 "Change the bat's state"

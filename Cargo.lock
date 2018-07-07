@@ -353,11 +353,11 @@ dependencies = [
 
 [[package]]
 name = "example_vn"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
  "gfx_device_gl 0.15.3 (registry+https://github.com/rust-lang/crates.io-index)",
  "gfx_glyph 0.12.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "gobu 0.1.0",
+ "gobu 0.2.0",
  "piston_window 0.80.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
@@ -514,7 +514,7 @@ dependencies = [
 
 [[package]]
 name = "gobu"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
  "coord 0.11.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "gfx_device_gl 0.15.3 (registry+https://github.com/rust-lang/crates.io-index)",
